@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/personalCenter/personalCenter",
+    "pages/textWord/textWord"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+      "selectedColor": "skyblue",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "背单词",
+      "iconPath": "pages/lib/img/index2.png",
+      "selectedIconPath": "pages/lib/img/index1.png"
+    } ,
+    {
+        "pagePath": "pages/textWord/textWord",
+        "text": "词汇量",
+        "iconPath": "pages/lib/img/text2.png",
+        "selectedIconPath": "pages/lib/img/text1.png"
+    },
+    {
+        "pagePath": "pages/personalCenter/personalCenter",
+        "text": "个人中心",
+        "iconPath": "pages/lib/img/personal2.png",
+        "selectedIconPath": "pages/lib/img/personal1.png"
+    }
+    ]
+  }
+}
