@@ -1,0 +1,5 @@
+<!-- 搜索单词开始 -->
+ <navigator url="./searchWord/searchWord" class="search">
+    <image src="./img/search.png" alt=""></image> 
+  </navigator>
+<!-- 搜索单词结束 -->

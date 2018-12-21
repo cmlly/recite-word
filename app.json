@@ -2,17 +2,18 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
+    "pages/index/searchWord/searchWord",
     "pages/personalCenter/personalCenter",
     "pages/textWord/textWord"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#FFB90F",
+    "navigationBarTitleText": "我为单词迷",
+    "navigationBarTextStyle":"white"
   },
   "tabBar": {
-      "selectedColor": "skyblue",
+      "selectedColor": "#FFB90F",
     "list": [{
       "pagePath": "pages/index/index",
       "text": "背单词",
