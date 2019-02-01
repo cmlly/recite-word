@@ -2,29 +2,36 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/index/searchWord/searchWord",
     "pages/personalCenter/personalCenter",
-    "pages/textWord/textWord"
+    "pages/news/news",
+    "pages/grammar/grammar",
+    "pages/index/search/search"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#FFB90F",
-    "navigationBarTitleText": "我为单词迷",
+    "navigationBarTitleText": "随时随地学英语",
     "navigationBarTextStyle":"white"
   },
   "tabBar": {
       "selectedColor": "#FFB90F",
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "背单词",
+      "text": "查单词",
       "iconPath": "pages/lib/img/index2.png",
       "selectedIconPath": "pages/lib/img/index1.png"
     } ,
     {
-        "pagePath": "pages/textWord/textWord",
-        "text": "词汇量",
-        "iconPath": "pages/lib/img/text2.png",
-        "selectedIconPath": "pages/lib/img/text1.png"
+        "pagePath": "pages/grammar/grammar",
+        "text": "学语法",
+        "iconPath": "pages/lib/img/grammar2.png",
+        "selectedIconPath": "pages/lib/img/grammar.png"
+    },
+    {
+      "pagePath": "pages/news/news",
+      "text": "看新闻",
+      "iconPath": "pages/lib/img/text2.png",
+      "selectedIconPath": "pages/lib/img/text1.png"
     },
     {
         "pagePath": "pages/personalCenter/personalCenter",
