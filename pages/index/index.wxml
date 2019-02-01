@@ -1,5 +1,6 @@
 <!-- 搜索单词开始 -->
- <navigator url="./searchWord/searchWord" class="search">
-    <image src="./img/search.png" alt=""></image> 
-  </navigator>
+<image src='./img/staff_1024.jpg' class='logo'></image>
+<navigator url='./search/search'>
+    <view class='input-search'>输入要翻译的文本</view>
+</navigator>
 <!-- 搜索单词结束 -->

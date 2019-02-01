@@ -1,0 +1,16 @@
+<!-- 头部背景图开始 -->
+ <view>
+    <image src='./img/bg.jpg' class='bg-img'></image>
+ </view>
+<!-- 头部背景图结束 -->
+<!-- 个人资料开始 -->
+<view class='person-info'>
+    <view>
+       <open-data type="userAvatarUrl" class="person-avatar"></open-data>  
+    </view>
+    <view class='person-name'>
+      <open-data type="userNickName"></open-data>
+    </view>
+    
+</view>
+<!-- 个人资料结束 -->
