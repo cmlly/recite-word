@@ -12,3 +12,8 @@
     color: #999999;
     background-color: #f5f5f5;
 }
+text{
+    margin-top: 1%;
+    margin-right: 3%;
+    float: right;
+}
